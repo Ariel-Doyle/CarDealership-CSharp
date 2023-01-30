@@ -2,11 +2,16 @@ using System;
 
 namespace Dealership.Models
 {
+    public static void Sale()
+    {     
+      Price = forEach(Models in Cars)
+    }
   public class Car
   {
 
+
     public string MakeModel {get; set;}
-    public int Price {get; set;}
+    public static int Price {get; set;}
     public int Miles {get; set;}
 
     public void SetPrice(int newPrice)
